@@ -2,3 +2,4 @@
 flask_cors
 tensorflow
 numpy
+matplotlib
