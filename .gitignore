@@ -1,0 +1,7 @@
+*.zip
+venv/
+model/
+dataset/
+papaya/
+webFile/
+*.jpg
