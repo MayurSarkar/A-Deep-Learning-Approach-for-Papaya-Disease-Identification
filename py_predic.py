@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the trained model for disease detection
-disease_model = load_model('c1plant_disease_model.weights(1).h5')
+disease_model = load_model('https://drive.google.com/file/d/1OIr6A3fAdsAaYgKlAzME1zbRDaA3R-hH/view?usp=drive_link')
 
 # Define disease labels
 disease_labels = {
@@ -22,7 +22,7 @@ disease_labels = {
 }
 
 # Load the trained model for freshness detection
-freshness_model = load_model('c3plant_disease_model.weights.h5')
+freshness_model = load_model('https://drive.google.com/file/d/1WudZ187mo3L5Z2H9FwtETc4lPEq7V2fW/view?usp=drive_link')
 
 # Function to preprocess the image
 def preprocess_image(image_path):
